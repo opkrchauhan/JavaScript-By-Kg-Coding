@@ -1,0 +1,1 @@
+console.log(`Your total gst is ${((79990) + (2 * 24990)) * 18 / 100}.`);

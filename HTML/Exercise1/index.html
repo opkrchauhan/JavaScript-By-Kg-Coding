@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise Practice</title>
+  <link rel="stylesheet" href="../../CSS/exercise/style.css">
+
+</head>
+
+<body>
+  <button id="btn1"
+    onclick=" cartCount +=1; document.querySelector('#cart-sumary').innerText = `Your Cart has ${cartCount} items`; ">Add
+    to bag</button>
+  <button class="btn2"
+    onclick=" cartCount -=1; document.querySelector('#cart-sumary').innerText = `Your Cart has ${cartCount} items`; ">❤️WISHLIST</button>
+
+  <button id="btn3"
+    onclick=" cartCount +=2; document.querySelector('#cart-sumary').innerText = `Your Cart has ${cartCount} items`; ">Add
+    1 + 1 Sale Item</button>
+  <br>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, laborum!</p>
+  <h1 id="cart-sumary"></h1>
+
+  <script>
+    let cartCount = 0;
+    document.querySelector('#cart-sumary').innerText = `Your Cart has ${cartCount} items`;
+  </script>
+
+
+
+  <!-- <script src="../../JavaScript/Number&String/Exercise2/alertinweb.js"></script> -->
+</body>
+
+</html>

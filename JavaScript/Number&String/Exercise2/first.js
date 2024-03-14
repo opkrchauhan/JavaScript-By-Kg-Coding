@@ -1,0 +1,1 @@
+console.log(`Your final bill is ${(1 * 100 + 2 * 10 + 1 * 10)}.`);
